@@ -41,7 +41,9 @@ function useLocalStorage(key, initial) {
   useEffect(() => {
     try {
       localStorage.setItem(key, JSON.stringify(state));
-    } catch {}
+    } catch (err) {
+      console.log(err);
+    }
   }, [key, state]);
   return [state, setState];
 }
@@ -75,7 +77,6 @@ export default function App() {
   const [gameMode, setGameMode] = useState(false);
   const [gameRound, setGameRound] = useState(null);
   const [error, setError] = useState(null);
-  console.log("list", list);
 
   useEffect(() => {
     // initial load
