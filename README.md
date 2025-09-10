@@ -35,18 +35,9 @@ for the amazing free Pokémon API
 [Lucide Icons] (https://lucide.dev/)
 for UI icons
 
-📜 License
+## 📜 License
 
 This project is for learning and portfolio purposes.
 Feel free to fork and modify, but give credits if you use it 😊
 
 ---
-
-## 🚀 Getting Started
-
-### 1. Clone repository
-
-```bash
-git clone https://github.com/your-username/pokedex-react.git
-cd pokedex-react
-```
